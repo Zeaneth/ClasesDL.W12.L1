@@ -10,13 +10,15 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery-1.11.1
+
+
+//= require jquery-1.11.1.min
 //= require bootstrap
-//= require jquery.backstretch
-//= require wow
-//= require retina-1.1.0
-//= require waypoints
-//= require jquery.magnific-popup
+//= require jquery.backstretch.min
+//= require wow.min
+//= require retina-1.1.0.min
+//= require waypoints.min
+//= require jquery.magnific-popup.min
 //= require scripts
 //= require rails-ujs
 //= require activestorage
