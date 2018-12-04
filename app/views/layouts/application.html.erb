@@ -9,13 +9,14 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <!-- Font: -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
 
     <!-- These load every asset linked to the app -->
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     
+    <!-- Font: -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+
     <!-- Favicon and touch icons -->
     <link rel="shortcut icon" href="<%= asset_path 'favicon.png'%>">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<%= asset_path 'apple-touch-icon-144-precomposed.png'%>">
