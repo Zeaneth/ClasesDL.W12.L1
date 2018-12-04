@@ -13,8 +13,15 @@
  
  *= require bootstrap
  *= require style
+ *= require font-awesome
+ *= require animate
+ *= require magnific-popup
+ *= require ultm
+ *= require form-elements
+ *= require media-queries
  *= require_tree .
  *= require_self
  */
+
 @import "bootstrap-theme";
 
